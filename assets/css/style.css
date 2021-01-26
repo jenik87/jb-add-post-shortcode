@@ -1,0 +1,17 @@
+.jb-response-block p {
+    text-align: center;
+    display: none;
+    border: 1px solid;
+    padding: 4px 10px;
+}
+.jb-response-block .jb-error,
+.jb-response-block .jb-validation,
+.jb-response-block .jb-validation-title {
+    color: red;
+}
+.jb-response-block .jb-success {
+    color: green;
+}
+.jb-submit {
+    text-align: right;
+}
