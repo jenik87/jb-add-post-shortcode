@@ -26,7 +26,7 @@ class jbOptionPage {
 	}
 
 	public function jb_create_option_page() {
-		$this->$jb_options = get_option( 'jb_options' ); ?>
+		$this->jb_options = get_option( 'jb_options' ); ?>
 
 		<div class="wrap">
 			<?php settings_errors(); ?>
@@ -84,7 +84,7 @@ class jbOptionPage {
 	public function jb_email_callback() {
 		printf(
 			'<input class="regular-text" type="text" name="jb_options[jb_email]" id="jb_email" value="%s">',
-			isset( $this->$jb_options['jb_email'] ) ? esc_attr( $this->$jb_options['jb_email']) : ''
+			isset( $this->jb_options['jb_email'] ) ? esc_attr( $this->jb_options['jb_email']) : ''
 		);
 	}
 
