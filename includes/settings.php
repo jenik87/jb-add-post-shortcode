@@ -40,7 +40,7 @@ class jbOptionPage {
 			</form>
 			<p>
 				<?php _e('Use this shortcode for add form - ', 'jb'); ?>
-				<b>[wpshout_frontend_post]</b>
+				<b>[jb_add_post_form]</b>
 			</p>
 		</div>
 	<?php }
